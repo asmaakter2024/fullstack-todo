@@ -6,6 +6,9 @@ const mongoose = require("mongoose");
 const app = express();
 // const port = process.env.PORT || 8000;
 
+//.env ke console.log kore dekhte cacchi
+console.log(process.env.MONGO_URL)
+
 app.use(express.json());
 
 app.listen(8000, () => {
